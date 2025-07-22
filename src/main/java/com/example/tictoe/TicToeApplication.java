@@ -37,7 +37,7 @@ public class TicToeApplication {
 
                 }
                 service.generateAndSaveTransaction(d.board, d.winner);
-                service.getStatisticks();
+                System.out.println(service.getStatisticks());
                 break;
             }
         };
